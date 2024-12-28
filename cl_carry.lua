@@ -71,10 +71,10 @@ RegisterCommand("carry",function(source, args)
 				ensureAnimDict(carry.personCarrying.animDict)
 				carry.type = "carrying"
 			else
-				drawNativeNotification("~r~No one nearby to carry!")
+				--drawNativeNotification("~r~No one nearby to carry!")
 			end
 		else
-			drawNativeNotification("~r~No one nearby to carry!")
+			--drawNativeNotification("~r~No one nearby to carry!")
 		end
 	else
 		carry.InProgress = false
